@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# Downloaded originals (scripts/fetch-sources.mjs). Never committed, never in the image.
+data-raw/
