@@ -1,0 +1,31 @@
+<tide>
+<locationdata>
+<location name="Ny-Ålesund" code="NYA" latitude="78.928545" longitude="11.938015" delay="0" factor="1.00" obsname="Ny-Ålesund" obscode="NYA" place="NYA" descr="Tides from Ny-Ålesund"/>
+<reflevelcode>MSL</reflevelcode>
+<data type="prediction" unit="cm">
+<waterlevel value="-31.5" time="2027-01-05T04:57:00+00:00" flag="low"/>
+<waterlevel value="50.3" time="2027-01-05T11:25:00+00:00" flag="high"/>
+<waterlevel value="-23.9" time="2027-01-05T17:32:00+00:00" flag="low"/>
+<waterlevel value="45.1" time="2027-01-05T23:30:00+00:00" flag="high"/>
+<waterlevel value="-35.6" time="2027-01-06T05:40:00+00:00" flag="low"/>
+<waterlevel value="57.0" time="2027-01-06T12:05:00+00:00" flag="high"/>
+<waterlevel value="-28.7" time="2027-01-06T18:15:00+00:00" flag="low"/>
+<waterlevel value="48.4" time="2027-01-07T00:12:00+00:00" flag="high"/>
+<waterlevel value="-39.8" time="2027-01-07T06:17:00+00:00" flag="low"/>
+<waterlevel value="62.3" time="2027-01-07T12:41:00+00:00" flag="high"/>
+<waterlevel value="-33.1" time="2027-01-07T18:53:00+00:00" flag="low"/>
+<waterlevel value="51.0" time="2027-01-08T00:49:00+00:00" flag="high"/>
+<waterlevel value="-43.5" time="2027-01-08T06:52:00+00:00" flag="low"/>
+<waterlevel value="65.9" time="2027-01-08T13:14:00+00:00" flag="high"/>
+<waterlevel value="-37.0" time="2027-01-08T19:27:00+00:00" flag="low"/>
+<waterlevel value="52.3" time="2027-01-09T01:23:00+00:00" flag="high"/>
+<waterlevel value="-46.5" time="2027-01-09T07:25:00+00:00" flag="low"/>
+<waterlevel value="67.8" time="2027-01-09T13:45:00+00:00" flag="high"/>
+<waterlevel value="-40.0" time="2027-01-09T19:59:00+00:00" flag="low"/>
+<waterlevel value="52.2" time="2027-01-10T01:56:00+00:00" flag="high"/>
+<waterlevel value="-48.3" time="2027-01-10T07:57:00+00:00" flag="low"/>
+<waterlevel value="68.2" time="2027-01-10T14:16:00+00:00" flag="high"/>
+<waterlevel value="-41.9" time="2027-01-10T20:31:00+00:00" flag="low"/>
+</data>
+</locationdata>
+</tide>

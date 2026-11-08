@@ -1,6 +1,6 @@
 {
   "name": "nomad-almanac",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Offline sun and moon times, compass declination and tide predictions for Project NOMAD",
   "license": "Apache-2.0",
@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@neaps/tide-predictor": "0.11.0",
     "astronomy-engine": "2.1.19",
     "react": "19.2.7",
     "react-dom": "19.2.7"

@@ -502,3 +502,70 @@ pre.licence {
     font-size: 1.8rem;
   }
 }
+
+/* ── Tides ───────────────────────────────────────── */
+
+label.inline.wrap {
+  flex-wrap: wrap;
+}
+
+label.inline.wrap select {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.confidence {
+  margin: 12px 0 0;
+  padding-left: 12px;
+  border-left: 3px solid var(--accent);
+}
+
+.tide-curve {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tide-curve .grid {
+  stroke: var(--border);
+}
+
+.tide-curve .axis {
+  font-size: 11px;
+  fill: var(--muted);
+}
+
+.tide-curve .area {
+  fill: var(--accent-soft);
+}
+
+.tide-curve .line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.tide-curve .hi {
+  fill: var(--accent);
+}
+
+.tide-curve .lo {
+  fill: var(--surface);
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+
+.tide-curve .now {
+  stroke: var(--danger);
+  stroke-width: 1.5;
+}
+
+.tide-days {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 10px 16px;
+}
+
+.tide-day h4 {
+  margin: 0 0 4px;
+}

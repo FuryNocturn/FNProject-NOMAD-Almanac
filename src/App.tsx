@@ -8,8 +8,9 @@ import Compass from './views/Compass'
 import PlaceEditor from './views/PlaceEditor'
 import Sky from './views/Sky'
 import Sources from './views/Sources'
+import Tides from './views/Tides'
 
-const TABS = ['sky', 'compass', 'sources'] as const
+const TABS = ['sky', 'compass', 'tides', 'sources'] as const
 type TabId = (typeof TABS)[number]
 
 /** Hash routing (#/compass), so the static site needs no server rewrites and the back button works. */
@@ -121,7 +122,9 @@ export default function App() {
       </nav>
       <main>
         {tab === 'sources' && <Sources />}
-        {tab !== 'sources' && place && range && (tab === 'sky' ? <Sky place={place} start={range[0]} end={range[1]} /> : <Compass place={place} start={range[0]} />)}
+        {place && range && tab === 'sky' && <Sky place={place} start={range[0]} end={range[1]} />}
+        {place && range && tab === 'compass' && <Compass place={place} start={range[0]} />}
+        {place && range && tab === 'tides' && <Tides place={place} start={range[0]} />}
       </main>
     </div>
   )

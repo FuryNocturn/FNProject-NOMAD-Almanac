@@ -1,0 +1,32 @@
+<tide>
+<locationdata>
+<location name="Bergen" code="BGO" latitude="60.398046" longitude="5.320487" delay="0" factor="1.00" obsname="Bergen" obscode="BGO" place="BGO" descr="Tides from Bergen"/>
+<reflevelcode>MSL</reflevelcode>
+<data type="prediction" unit="cm" qualityFlag="1" qualityClass="Quality High" qualityDescription="High quality data: It has been verified against measurements that the data represents physical conditions.">
+<waterlevel value="-26.1" time="2027-01-05T02:07:00+00:00" flag="low"/>
+<waterlevel value="51.0" time="2027-01-05T08:23:00+00:00" flag="high"/>
+<waterlevel value="-27.9" time="2027-01-05T14:40:00+00:00" flag="low"/>
+<waterlevel value="49.2" time="2027-01-05T20:50:00+00:00" flag="high"/>
+<waterlevel value="-28.9" time="2027-01-06T02:50:00+00:00" flag="low"/>
+<waterlevel value="56.9" time="2027-01-06T09:05:00+00:00" flag="high"/>
+<waterlevel value="-33.1" time="2027-01-06T15:21:00+00:00" flag="low"/>
+<waterlevel value="52.9" time="2027-01-06T21:32:00+00:00" flag="high"/>
+<waterlevel value="-32.1" time="2027-01-07T03:27:00+00:00" flag="low"/>
+<waterlevel value="61.2" time="2027-01-07T09:42:00+00:00" flag="high"/>
+<waterlevel value="-37.8" time="2027-01-07T15:58:00+00:00" flag="low"/>
+<waterlevel value="55.2" time="2027-01-07T22:10:00+00:00" flag="high"/>
+<waterlevel value="-35.3" time="2027-01-08T04:01:00+00:00" flag="low"/>
+<waterlevel value="63.7" time="2027-01-08T10:17:00+00:00" flag="high"/>
+<waterlevel value="-41.6" time="2027-01-08T16:32:00+00:00" flag="low"/>
+<waterlevel value="55.9" time="2027-01-08T22:45:00+00:00" flag="high"/>
+<waterlevel value="-38.2" time="2027-01-09T04:33:00+00:00" flag="low"/>
+<waterlevel value="64.4" time="2027-01-09T10:50:00+00:00" flag="high"/>
+<waterlevel value="-44.5" time="2027-01-09T17:04:00+00:00" flag="low"/>
+<waterlevel value="55.0" time="2027-01-09T23:18:00+00:00" flag="high"/>
+<waterlevel value="-40.4" time="2027-01-10T05:03:00+00:00" flag="low"/>
+<waterlevel value="63.6" time="2027-01-10T11:22:00+00:00" flag="high"/>
+<waterlevel value="-46.2" time="2027-01-10T17:35:00+00:00" flag="low"/>
+<waterlevel value="52.8" time="2027-01-10T23:51:00+00:00" flag="high"/>
+</data>
+</locationdata>
+</tide>
